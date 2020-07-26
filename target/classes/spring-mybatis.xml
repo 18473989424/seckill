@@ -12,7 +12,7 @@
 		<!-- 配置连接池数据 -->
 		<property name="driverClass" value="${driver}"></property>
 		<property name="jdbcUrl" value="${url}"></property>
-		<property name="user" value="${user}"></property>
+		<property name="user" value="mysql"></property>
 		<property name="password" value="${password}"></property>
 		<!-- c3p0连接池私有属性 -->
 		<property name="maxPoolSize" value="30"></property>

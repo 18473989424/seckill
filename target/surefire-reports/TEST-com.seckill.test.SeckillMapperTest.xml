@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="1" failures="0" name="com.seckill.test.RedisDaoTest" time="7.403" errors="0" skipped="0">
+<testsuite tests="3" failures="0" name="com.seckill.test.SeckillMapperTest" time="0.077" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/home/test/soft/jdk1.8.0_251/jre/lib/amd64"/>
@@ -61,5 +61,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="com.seckill.test.RedisDaoTest" name="testRedisDao" time="7.403"/>
+  <testcase classname="com.seckill.test.SeckillMapperTest" name="testQueryById" time="0.021"/>
+  <testcase classname="com.seckill.test.SeckillMapperTest" name="testQueryAll" time="0.022"/>
+  <testcase classname="com.seckill.test.SeckillMapperTest" name="testReduceNumber" time="0.034"/>
 </testsuite>
