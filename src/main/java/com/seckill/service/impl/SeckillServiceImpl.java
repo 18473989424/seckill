@@ -52,7 +52,6 @@ public class SeckillServiceImpl implements SeckillService {
 		return seckillMapper.queryById(seckillId);
 	}
 
-	@Override
 	public Exposer exposerSeckillUrl(long seckillId) {
 		// 缓存优化
 		// 1：查询缓存
