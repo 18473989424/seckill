@@ -10,7 +10,8 @@
 	<!-- 2.数据库连接池 -->
 	<bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
 		<!-- 配置连接池数据 -->
-		<property name="driverClass" value="${driver}"></property>
+		<property name="driverClass" value="${driver}"></property>ls
+
 		<property name="jdbcUrl" value="${url}"></property>
 		<property name="user" value="mysql"></property>
 		<property name="password" value="${password}"></property>
@@ -46,7 +47,7 @@
 	
 	<!-- RedisDao -->
 	<bean id="redisDao" class="com.seckill.dao.RedisDao">
-		<constructor-arg name="ip" value="47.96.104.69"></constructor-arg>
+		<constructor-arg name="ip" value="106.54.117.51"></constructor-arg>
 		<constructor-arg name="port" value="6379"></constructor-arg>
 	</bean>
 	
