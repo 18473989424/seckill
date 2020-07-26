@@ -40,9 +40,9 @@
 			
 		<!-- mysql数据库链接 -->	
 		<dependency>
-			<groupId>mysql</groupId>
-			<artifactId>mysql-connector-java</artifactId>
-			<version>5.1.38</version>
+		   <groupId>mysql</groupId>
+		   <artifactId>mysql-connector-java</artifactId>
+		   <version>8.0.20</version>
 		</dependency>
 		
 		<dependency>
@@ -65,7 +65,7 @@
 		</dependency>
 		
 		<!-- spring -->
-				<dependency>
+		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-context</artifactId>
 			<version>4.3.12.RELEASE</version>
